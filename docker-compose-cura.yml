@@ -2,10 +2,10 @@
 
 x-common-settings:
   &common-settings
-  image: acu77/cura-trade
+  image: acu77/cura-trade:latest
   build:
     context: .
-    dockerfile: "./docker/Dockerfile.custom"
+    dockerfile: "./docker/Dockerfile.cura"
   restart: unless-stopped
   volumes:
     - "./user_data:/freqtrade/user_data"
