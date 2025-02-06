@@ -21,7 +21,7 @@ x-common-settings:
     start_interval: 5s
   env_file:
     - path: .env
-      required: false # default true
+      required: true # default true
 
 services:
   freqtrade:
