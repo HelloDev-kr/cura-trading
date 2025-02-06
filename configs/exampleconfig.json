@@ -3,13 +3,13 @@
   // Please use at own risk
   // For full documentation on Freqtrade configuration files please visit https://www.freqtrade.io/en/stable/configuration/
   "dry_run": true,
-  "dry_run_wallet": 10000,
+  "dry_run_wallet": 15000,
   "grinding_enable": true,
-  "max_open_trades": 6,
-  "stake_currency": "USDT",
-  "stake_amount": "unlimited",
+  "max_open_trades": 2,
+  "stake_currency": "KRW",
+  "stake_amount": 6000,
   "tradable_balance_ratio": 0.99,
-  "fiat_display_currency": "USD",
+  "fiat_display_currency": "KRW",
   "force_entry_enable": true,
   "initial_state": "running",
   "timeframe": "5m",
@@ -103,6 +103,7 @@
     }
   },
   "internals": {
-    "process_throttle_secs": 5
+    "process_throttle_secs": 5,
+    "timezone": "Asia/Seoul"
   }
 }
